@@ -2429,6 +2429,7 @@
 
 		.feature .image {
 			display: inline-block;
+			object-fit: scale-down;
 			height: 100%;
 			overflow: hidden;
 			position: relative;
@@ -2575,6 +2576,10 @@
 			margin: 0 0 0.75em 0;
 			text-align: center;
 			width: 2.35em;
+		}
+
+		#header .logo img {
+			object-fit: cover;
 		}
 
 			#header .logo.fa-paper-plane-o:before {
@@ -3125,4 +3130,42 @@
 					display: none;
 				}
 
+				img {
+					object-fit: cover;
+				}
+
+	}
+
+	.about {
+		text-transform: none;
+		text-align: center;
+	}
+
+	.skills {
+		display: flex;
+		flex-flow: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.skill {
+		margin: 10px;
+		width: 100px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.skill i{
+		font-size: 4em;
+	}
+
+	.skill img{
+		width: 4em;
+		margin: 1px;
+	}
+
+	.skill:hover {
+		font-size: 1.1em
 	}
