@@ -3169,3 +3169,31 @@
 	.skill:hover {
 		font-size: 1.1em
 	}
+
+	.feature p {
+		margin-bottom: 0;
+	}
+
+	.project-header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.stack a {
+		border-bottom: none;
+			margin-right: 15px;
+	}
+
+	.stack {
+		font-size: 1.5em;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.stack i {
+	}
+
+	.stack img {
+		height: 1em;
+		width: 1em;
+	}
