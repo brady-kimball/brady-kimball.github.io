@@ -2162,8 +2162,8 @@
 				transform: translateZ(1em);
 			}
 
-			.image.icon:hover:after {
-				opacity: 1;
+			.image.icon:hover {
+				box-shadow: 0 0 10px gray;
 			}
 
 	span.image.icon {
@@ -3196,4 +3196,20 @@
 	.stack img {
 		height: 1em;
 		width: 1em;
+	}
+
+	.elucidate {
+		content: url("../../images/elucidate.png");
+	}
+
+	.elucidate:hover {
+
+	}
+
+	.breathe {
+		content: url("../../images/breathe.png");
+	}
+
+	.schemer {
+		content: url("../../images/schemer.png");
 	}
